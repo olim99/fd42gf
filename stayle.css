@@ -1,0 +1,106 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.container {
+    background-color: #ffffff10;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.inputs input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: #ffffff20;
+    color: #fff;
+}
+
+.inputs input::placeholder {
+    color: #eee;
+}
+
+
+.selects {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.selects select {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #ffffff20;
+    color: #fff;
+    outline: none;
+    appearance: none;
+}
+
+
+button#translateButtton {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ff6b81;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button#translateButtton:hover {
+    background-color: #ff4757;
+}
+button#speakButton {
+    margin-top: 10px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 12px;
+    background-color: #1e90ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button#speakButton:hover {
+    background-color: #1c86ee;
+}
